@@ -4,8 +4,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-driver = webdriver.Chrome()  # Assuming you have Chrome WebDriver installed
-driver.implicitly_wait(10)  # Implicit wait for 10 seconds
+driver = webdriver.Chrome() 
+driver.implicitly_wait(10) 
 
 driver.get("https://www.saucedemo.com/")
 
